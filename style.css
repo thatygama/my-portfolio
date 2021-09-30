@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5{
+    color:#7D3D63;
+}
+
+::-webkit-scrollbar{
+    background-color: #a13978;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+/* header contendo menu, carousel */
+
+#thatyane{
+    color: #a13978;
+}
+
+#linksMenu:hover{
+    border-bottom: 1px solid #a13978;
+    color: #a13978;
+    transform: translateY(-5%);
+}
+
+.navbar-brand{
+    border-bottom: 1px solid rgba(123, 123, 126, 0.2);
+}
+
+.navbar h2{
+    margin-left: 10px;
+    margin-right: 5%;
+}
+
+.nav-link{
+    margin-left: 30px;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+/* main contendo descrição, imagem */
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#imageMain{
+    max-width: 80%;
+    margin-top: 20px;
+    border: 15px solid #a13978;
+}
+
+.figure-caption{
+    text-align: right;
+    margin-right: 20%;
+    color:#b8b8b8;
+}
+
+main{
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+    padding: 20px 50px 20px 50px;
+}
+
+section{
+    margin-bottom: 100px;
+    
+}
+
+#apresent{
+    color:#a13978;
+}
+
+.col{
+    text-align: left;
+    text-indent: 20px;
+}
+
+.col h2{
+    text-indent: 0px;
+}
+
+.col p{
+    text-align: justify;
+    margin: 0px 10% 0px 10%;
+}
+
+
+#firstParagraph{
+    margin-top: 40px;
+}
+
+
+/* segundo menu permitindo acesso ao conteúdo */
+
+.nav-link{
+    color: #505050;
+}
+
+.nav-link:hover{
+    color: #a13978;
+    border-bottom: 1px solid #a13978;
+    border-radius: 0px;
+}
+
+.scrollspyHeadingp{
+    text-align: center;
+    margin: 30px 20% 0px 20%;
+}
+
+#imageApresent{
+    float: right;
+    margin-right: 30%;
+    min-width: 250px;
+    max-width: 50%;
+    border: 15px solid #a13978;
+}
+
+
+#formHabilities{
+    margin: 10px 45% 0px 40%;
+}
+
+#scrollspyHeading1{
+    text-align: center;
+}
+
+
+#scrollspyHeading2, #scrollspyHeading3, #scrollspyHeading4{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* projetos  */
+
+.col-md-6{
+    column-gap: 50px;
+}
+.btn-primary{
+    background-color: #a13978;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(119, 34, 85);
+}
+
+.btn-primary:visited{
+    background-color: rgb(148, 35, 103);
+}
+
+/* contatos  */
+
+.contatos{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    background-color: #7D3D63;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+}
+
+.contatos:hover{
+    color: #D4D4D4;
+    background-color: #5f2b4a;
+
+}
+
+
+/* formulário fazer contato comigo */
+
+.formContato{
+    text-align: center;
+    margin: 40px 20% 20px 20%;
+}
+
+.formContato h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-size: 12px;
+}
+
+.input-group-text{
+    background-color: rgba(161, 57, 120, 0.2);
+    color:#615c5f;
+}
+
+#btnSubmit{
+    color: #D4D4D4;
+    background-color: #7b7b7e;
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#btnSubmit:hover{
+    background-color: #473e44;
+}
+
+.form-check-input:checked{
+    background-color: #a13978;
+    border: white;
+}
