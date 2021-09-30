@@ -14,4 +14,4 @@
 <p>-[x]Bootstrap</p>
 
 <br>
-<h2>Made by Thatyane Gama</h2>
+<h2>Made by Thatyane Gama &#127802</h2>
